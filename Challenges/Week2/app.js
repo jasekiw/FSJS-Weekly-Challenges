@@ -1,8 +1,11 @@
-//create function
-  //control and return statements
 
-//Prompt user for input and store variable
+function alertUser(input)
+{
+	if(input == "hello")
+		alert("Hello World!")
+	else
+		alert("You didn't listen to me!");
+}
 
-//Call function
 
-//Alert user results
+alertUser(prompt("Please enter hello!"));
