@@ -6,6 +6,7 @@ function alertUser(input)
 	else
 		alert("You didn't listen to me!");
 }
-
-
 alertUser(prompt("Please enter hello!"));
+
+
+
